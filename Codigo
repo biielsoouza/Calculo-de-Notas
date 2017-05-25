@@ -1,0 +1,20 @@
+rotinas
+function somar() {
+            var c1 ,c2 , res ,tgi ,ar; 
+            c1 = document.getElementById("campo1").value;
+            c2 = document.getElementById("campo2").value;
+            tgi = document.getElementById("campo3").value; 
+			ar = document.getElementById("campo4").value;
+			
+		    media = parseFloat(c1 * 0.1) + parseFloat(c2 * 0.1) + parseFloat(tgi * 0.3) + parseFloat(ar * 0.5)
+			
+			alert (media);
+			
+			if (media <7)
+			    document.getElementById("").innerText = "Exame"
+				
+			else
+                document.getElementById("resultado").innerText = "aprovado"		
+			               
+        }
+	
